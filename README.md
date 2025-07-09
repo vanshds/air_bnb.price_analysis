@@ -1,27 +1,31 @@
-# 🏠 NYC Airbnb Price Prediction & Clustering
+Airbnb Price Predictor (NYC) 🏡
+This Streamlit web app predicts the nightly price of Airbnb listings in New York City based on user inputs like room type, neighborhood, minimum nights, review stats, and availability. It provides an intuitive interface with a sleek gradient background and useful features such as downloading a detailed analysis report.
 
-This project uses the **AB_NYC_2019** dataset to predict Airbnb listing prices using **Random Forest Regression** and categorize listings into **cheap** and **expensive** clusters using **KMeans**.
+🚀 Features
+🔍 Price Prediction
+Predicts nightly rental price based on:
 
----
+Room Type (Entire home, Private room, etc.)
 
-## 📌 Features
+Neighborhood Group (Manhattan, Brooklyn, etc.)
 
-- 🔹 Clean and preprocess real-world Airbnb data
-- 🔹 Predict prices using a non-linear Random Forest Regressor
-- 🔹 Visualize model performance: Actual vs Predicted Price
-- 🔹 Use KMeans to cluster listings based on price
-- 🔹 Built with only `pandas`, `numpy`, `matplotlib`, and `sklearn`
+Minimum Nights
 
----
+Reviews per Month
 
-## 📈 Outputs
-📉 Actual vs Predicted Price Plot
-📊 Clustering Plot: Cheap vs Expensive Listings
+Number of Reviews
 
-## 📂 Dataset Source
-📎 [AB_NYC_2019 on Kaggle](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)
+Availability (days per year)
 
-## 👨‍💻 Author
-Vansh Bhimani
-First-Year Student @ Sardar Patel Institute of Technology (SPIT)
-📬 Feel free to connect on LinkedIn (https://www.linkedin.com/in/vansh-bhimani-a913bb332/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_verification_details%3B4s4GGtMpTDGFjyGShCTLBg%3D%3D)
+🎨 Stylish UI
+Smooth black gradient background
+
+Bold white text and labels for easy readability
+
+Clear and simple input widgets for fast interaction
+
+📄 Project Analysis Report
+Download a comprehensive PDF report with data insights, exploratory analysis, and model evaluation directly from the app. 
+
+💻 Technical Assets & Deployment
+Live demo at: https://air-bnb.streamlit.app/
