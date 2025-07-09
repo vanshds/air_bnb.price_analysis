@@ -1,31 +1,30 @@
-Airbnb Price Predictor (NYC) 🏡
-This Streamlit web app predicts the nightly price of Airbnb listings in New York City based on user inputs like room type, neighborhood, minimum nights, review stats, and availability. It provides an intuitive interface with a sleek gradient background and useful features such as downloading a detailed analysis report.
+# Airbnb Price Predictor (NYC)
 
-🚀 Features
-🔍 Price Prediction
-Predicts nightly rental price based on:
+Predict the nightly price of Airbnb listings in New York City based on key features using a Random Forest regression model. This Streamlit web app offers an intuitive interface to explore how different listing attributes affect pricing and helps hosts, guests, and investors make informed decisions.
 
-Room Type (Entire home, Private room, etc.)
+---
 
-Neighborhood Group (Manhattan, Brooklyn, etc.)
+## 📊 Dataset
 
-Minimum Nights
+Dataset link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
 
-Reviews per Month
+## 🚀 Features
 
-Number of Reviews
+- **Price Prediction:** Estimate the nightly price given inputs like room type, neighborhood group, minimum nights, reviews, and availability.
+- **Data-Driven Insights:** Model trained on real Airbnb NYC data, with robust preprocessing and feature engineering.
+- **User-Friendly UI:** Simple sidebar inputs with dropdowns and sliders, clean layout, and stylish red gradient background.
+- **Downloadable Analysis:** Access a detailed PDF report with data analysis and business insights related to Airbnb pricing.
 
-Availability (days per year)
+---
 
-🎨 Stylish UI
-Smooth black gradient background
+## 📊 Usage
 
-Bold white text and labels for easy readability
+Try the live app here: https://air-bnb.streamlit.app
 
-Clear and simple input widgets for fast interaction
+1. Select the desired features of your Airbnb listing using the sidebar options.
+2. Click **Predict Price** to get the estimated nightly price.
+3. Download the **Project Analysis Report** PDF below the prediction button for detailed insights.
 
-📄 Project Analysis Report
-Download a comprehensive PDF report with data insights, exploratory analysis, and model evaluation directly from the app. 
+---
 
-💻 Technical Assets & Deployment
-Live demo at: https://air-bnb.streamlit.app/
+
