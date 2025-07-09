@@ -8,6 +8,8 @@ Predict the nightly price of Airbnb listings in New York City based on key featu
 
 Dataset link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
 
+---
+
 ## 🚀 Features
 
 - **Price Prediction:** Estimate the nightly price given inputs like room type, neighborhood group, minimum nights, reviews, and availability.
